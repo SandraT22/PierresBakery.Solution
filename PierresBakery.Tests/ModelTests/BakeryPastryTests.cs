@@ -31,7 +31,7 @@ namespace PierresBakery.Tests
     public void PastryPrice_SixOrMore_Int()
     {
       int pastryNum = 8;
-      Assert.AreEqual(30, Pastry.PastryPrice(pastryNum)); 
+      Assert.AreEqual(14, Pastry.PastryPrice(pastryNum)); 
     }
  }
 }
