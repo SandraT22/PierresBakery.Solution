@@ -10,7 +10,7 @@ namespace PierresBakery
       decimal pNum = Math.Floor((decimal) (pastryNum/3));
       int pDecDealPrice = Decimal.ToInt32(pNum) *10;
       int pDealPrice = (pastryNum/3) * 5; //(use method to round down)
-      int pAddPrice = 0; (breadNum % 3) * 2
+      int pAddPrice = (pastryNum % 3) * 2;
       if (pastryNum <= 2) {
       pastryPrice = pastryNum * 2;
         return pastryPrice;
