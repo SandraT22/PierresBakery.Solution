@@ -19,5 +19,12 @@ namespace PierresBakery.Tests
       int pastryNum = 3;
       Assert.AreEqual(5, Pastry.PastryPrice(pastryNum));
     }
+
+    [TestMethod]
+    public void PastryPrice_AddPrice_Int()
+    {
+      int pastryNum = 4;
+      Assert.AreEqual(7, Pastry.PastryPrice(pastryNum));
+    }
  }
 }
