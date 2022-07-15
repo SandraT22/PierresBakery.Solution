@@ -28,9 +28,6 @@ namespace PierresBakery
           Console.WriteLine("Sorry I didn't understand that. Please enter d for Danish or a for Apple Strudel.");
         Main();
         }
-        // Pastry pastry = new Pastry(2);
-        // pastry.SetPastryPrice(pastryNum);
-        // Console.WriteLine("Your bread total cost is: $" + pastry.pastryPrice + " Thank you for shopping with us!"); 
       } else if (answer.ToLower() == "b") {
         Console.WriteLine("Great! The current deal is buy 2 get 1 free! Regular price is $5 each. Would you like Anpan bread or a Bagel? [a or b]");
         string breadAnswer = Console.ReadLine();
@@ -50,10 +47,6 @@ namespace PierresBakery
           Console.WriteLine("Sorry I didn't understand that. Please enter d for Danish or a for Apple Strudel.");
         Main();
         }
-        // int breadNum = int.Parse(Console.ReadLine());
-        // Bread bread = new Bread(5);
-        // bread.SetBreadPrice(breadNum);
-        // Console.WriteLine("Your bread total cost is: $" + bread.breadPrice + " Thank you for shopping with us!"); 
       } else if (answer.ToLower() == "q") {
         Console.WriteLine("Thank you for visiting Pierre's Bakery! We hope you have a wonderful day!");
       } else {

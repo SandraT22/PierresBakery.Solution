@@ -24,7 +24,7 @@ Objectives:
 <!-- - polished -->
 <!-- - prompt answered.  -->
 <!-- - ReadMe -->
-- commit every hour
+<!-- - commit every hour -->
 
 Brainstorm: 
 <!-- Test1: 

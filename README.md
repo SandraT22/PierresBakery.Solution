@@ -12,7 +12,7 @@
 * MSTest
 
 ## Description
-#### Console app that asks the user to select between bread or pastries, displays the regular price and specail deal prices for the selected items, asks the user to enter the amount they want of that item, and finally displays the total cost for the amount of that item. 
+#### Console app that asks the user to select between 2 types of bread or 2 types pastries, displays the regular price and specail deal prices for the selected items, asks the user to enter the amount they want of that item, and finally displays the total cost for the amount of that item. 
 
 ## Setup/Installation Requirements
 
