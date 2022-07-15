@@ -1,31 +1,32 @@
-# (Application Name)
+# Pierre's Bakery
 
-#### (Brief Description of Application)
+#### Select bakery items you would like to purchace and view their prices and your final total cost. 
 
-#### By (Your Name Here)
+#### By: Sandra Tena
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* C#
+* .NET
+* Visual Studio Code
+* MSTest
 
 ## Description
+#### Console app that asks the user to select between bread or pastries, displays the regular price and specail deal prices for the selected item, asks the user to enter the amount that they want in that item, and finally displays the total cost for the amount of that item. 
 
 ## Setup/Installation Requirements
 
-* git clone 
-* change the project names in Template.Tests.csproj to match your project
-* change file names to match your project
-* run $ dotnet restore
-* uncomment line 5 in Template.csproj after you add UI logic. 
+* git clone https://github.com/SandraT22/PierresBakery.Solution.git
+* run $ dotnet restore in PierresBakery.Tests
+* run $ dotnet run in PierresBakery
+* Read and answer the prompts in your console to try for yourself. 
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* No known bugs
 
 ## License
-
+MIT
+Copyright (c) 2022 Sandra Tena
 ## Contact Information
+_If you have any questions or concerns, please feel free to reach out to me [via email at: sandratena06@gmail.com](mailto:sandratena06@gmail.com) or request to make a contribution. Thank you!_ 
