@@ -6,8 +6,10 @@ namespace PierresBakery
   public class Bread
   {
     public int breadPrice { get; set; }
-    public Bread( int price) {
+    public string breadName { get; set; }
+    public Bread( int price, string name) {
       breadPrice = price;
+      breadName = name;
     }
     public void SetBreadPrice(int breadNum)
     {

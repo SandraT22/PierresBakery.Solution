@@ -14,16 +14,16 @@ namespace PierresBakery
         string pastryAnswer = Console.ReadLine();
         if (pastryAnswer == "d"){
           Pastry pastry = new Pastry(2, "Danish");
-          Console.WriteLine("How many Danish pastries would you like?")
+          Console.WriteLine("How many Danish pastries would you like?");
           int pastryNum = int.Parse(Console.ReadLine());
           pastry.SetPastryPrice(pastryNum);
-          Console.WiteLine("The total cost for your Danish Pastries is: $" + pastry.pastryPrice + " Thank you for shopping with us!" )
+          Console.WriteLine("The total cost for your Danish Pastries is: $" + pastry.pastryPrice + " Thank you for shopping with us!" );
         } else if (pastryAnswer == "a") {
           Pastry pastry = new Pastry(2, "Apple Strudel");
-          Console.WriteLine("How many Apple Strudel pastries would you like?")
+          Console.WriteLine("How many Apple Strudel pastries would you like?");
           int pastryNum = int.Parse(Console.ReadLine());
           pastry.SetPastryPrice(pastryNum);
-          Console.WiteLine("The total cost for your Danish Pastries is: $" + pastry.pastryPrice + " Thank you for shopping with us!" )
+          Console.WriteLine("The total cost for your Danish Pastries is: $" + pastry.pastryPrice + " Thank you for shopping with us!" );
         } else {
           Console.WriteLine("Sorry I didn't understand that. Please enter d for Danish or a for Apple Strudel.");
         Main();
@@ -36,16 +36,16 @@ namespace PierresBakery
         string breadAnswer = Console.ReadLine();
         if (breadAnswer == "a"){
           Bread bread = new Bread(5, "Anpan");
-          Console.WriteLine("How many Anpan would you like?")
+          Console.WriteLine("How many Anpan would you like?");
           int breadNum = int.Parse(Console.ReadLine());
           bread.SetBreadPrice(breadNum);
-          Console.WiteLine("The total cost for your Anpan bread is: $" + bread.breadPrice + " Thank you for shopping with us!" )
-        } else if (pastryAnswer == "b") {
+          Console.WriteLine("The total cost for your Anpan bread is: $" + bread.breadPrice + " Thank you for shopping with us!" );
+        } else if (breadAnswer == "b") {
           Bread bread = new Bread(5, "Bagel");
-          Console.WriteLine("How many Bagels would you like?")
+          Console.WriteLine("How many Bagels would you like?");
           int breadNum = int.Parse(Console.ReadLine());
           bread.SetBreadPrice(breadNum);
-          Console.WiteLine("The total cost for your Bagels is: $" + bread.breadPrice + " Thank you for shopping with us!" )
+          Console.WriteLine("The total cost for your Bagels is: $" + bread.breadPrice + " Thank you for shopping with us!" );
         } else {
           Console.WriteLine("Sorry I didn't understand that. Please enter d for Danish or a for Apple Strudel.");
         Main();
