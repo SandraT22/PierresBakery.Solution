@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PierresBakery;
 
-namespace BakeryBread.Tests
+namespace PierresBakery.Tests
 {
   [TestClass]
   public class BakeryBreadTests
@@ -10,7 +10,7 @@ namespace BakeryBread.Tests
     public void BreadPrice_IndividualPrice_Int()
     {
       int breadNum = 2;
-      Assert.AreEqual(10, bread.BreadPrice(breadNum)); 
+      Assert.AreEqual(10, Bread.BreadPrice(breadNum)); 
     }
   }
 }
