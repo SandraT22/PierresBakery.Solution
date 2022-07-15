@@ -1,14 +1,15 @@
 using System;
+using System.Collections.Generic;
 
 namespace PierresBakery
 {
   public class Bread
   {
     public int breadPrice { get; set; }
-    public Bread(price) {
+    public Bread( int price) {
       breadPrice = price;
     }
-    public static int SetBreadPrice(int breadNum)
+    public void SetBreadPrice(int breadNum)
     {
       int breadPrice = 0;
       decimal num = Math.Floor((decimal) (breadNum/3));

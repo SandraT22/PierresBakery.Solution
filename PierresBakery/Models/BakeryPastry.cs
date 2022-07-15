@@ -1,11 +1,12 @@
 using System;
+using System.Collections.Generic;
 
 namespace PierresBakery
 {
   public class Pastry
   {
     public int pastryPrice { get; set; }
-    public Pastry(price) {
+    public Pastry(int price) {
       pastryPrice = price;
     }
     public void SetPastryPrice(int pastryNum)
