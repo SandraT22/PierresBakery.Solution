@@ -11,7 +11,6 @@ namespace PierresBakery
     }
     public void SetBreadPrice(int breadNum)
     {
-      int breadPrice = 0;
       decimal num = Math.Floor((decimal) (breadNum/3));
       int decDealPrice = Decimal.ToInt32(num) *10;
       int dealPrice = (breadNum/3) * 10;

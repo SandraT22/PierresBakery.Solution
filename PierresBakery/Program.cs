@@ -13,14 +13,14 @@ namespace PierresBakery
         Console.WriteLine("Great! The current deal is buy 3 for $5! Regular price is $2 each. How many would you like?");
         int pastryNum = int.Parse(Console.ReadLine());
         Pastry pastry = new Pastry(2);
-        Pastry.SetPastryPrice(pastryNum);
-        Console.WriteLine("Your bread total cost is: $" + pastry.pastryPrice + "Thank you for shopping with us!"); 
+        pastry.SetPastryPrice(pastryNum);
+        Console.WriteLine("Your bread total cost is: $" + pastry.pastryPrice + " Thank you for shopping with us!"); 
       } else if (answer.ToLower() == "b") {
         Console.WriteLine("Great! The current deal is buy 2 get 1 free! Regular price is $5 each. How many would you like?");
         int breadNum = int.Parse(Console.ReadLine());
         Bread bread = new Bread(5);
-        Bread.SetBreadPrice(breadNum);
-        Console.WriteLine("Your bread total cost is: $" + bread.breadPrice + "Thank you for shopping with us!"); 
+        bread.SetBreadPrice(breadNum);
+        Console.WriteLine("Your bread total cost is: $" + bread.breadPrice + " Thank you for shopping with us!"); 
       } else if (answer.ToLower() == "q") {
         Console.WriteLine("Thank you for visiting Pierre's Bakery! We hope you have a wonderful day!");
       } else {
