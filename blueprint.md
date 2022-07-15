@@ -23,7 +23,7 @@ Objectives:
 <!-- - models are thoroughly tested -->
 <!-- - polished -->
 <!-- - prompt answered.  -->
-- ReadMe
+<!-- - ReadMe -->
 - commit every hour
 
 Brainstorm: 
