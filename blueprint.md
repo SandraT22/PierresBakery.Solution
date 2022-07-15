@@ -28,10 +28,37 @@ Objectives:
 
 Brainstorm: 
 Test1: 
-
+if (breadNum <= 2) {
+    breadPrice = breadNum * 5;
+    return breadPrice;
 Test2:
-
+else if (breadNum % 3 == 0) {
+   breadPrice = dealPrice
+    return breadPrice;
 Test3:
+else if (breadNum % 3 > 0) {
+    breadPrice = dealPrice + addPrice; 
+    return breadPrice;
+Test4: 
+else {
+    return Console.WriteLine("Please enter a numerical amount.");
+  }
+Test5:
+if (pastryNum <= 2) {
+    pastryPrice = pastryNum * 2;
+    return pastryPrice;
+Test6:
+else if (pastryNum % 3 == 0) {
+   pastryPrice = pDealPrice
+    return pastryPrice;
+Test7:
+else if (pastryNum % 3 > 0) {
+    pastryPrice = pDealPrice + pAddPrice; 
+    return pastryPrice;
+Test8:
+ else {
+    return Console.WriteLine("Please enter a numerical amount.");
+  }
 
 Notes: 
 
@@ -44,11 +71,29 @@ Notes:
     breadPrice = breadNum * 5;
     return breadPrice;
   } else if (breadNum % 3 == 0) {
-    breadPrice = (breadNum/3) * 10; //breadPrice = dealPrice?
+   breadPrice = dealPrice
     return breadPrice;
   } else if (breadNum % 3 > 0) {
-    dealPrice = (breadNum/3) * 10 (use method to round down) //delete?
-    addPrice = (breadNum % 3) * 5  //delete?
     breadPrice = dealPrice + addPrice; 
     return breadPrice;
+  } else {
+    return Console.WriteLine("Please enter a numerical amount.");
+  }
+
+  - Pastry class -> PastryPrice Method: 
+  > pastryNum = Console.ReadLine();
+  > pastryPrice = 0;
+  > pDealPrice = 0; (breadNum/3) * 5 (use method to round down)
+  > pAddPrice = 0; (breadNum % 3) * 2
+  if (pastryNum <= 2) {
+    pastryPrice = pastryNum * 2;
+    return pastryPrice;
+  } else if (pastryNum % 3 == 0) {
+   pastryPrice = pDealPrice
+    return pastryPrice;
+  } else if (pastryNum % 3 > 0) {
+    pastryPrice = pDealPrice + pAddPrice; 
+    return pastryPrice;
+  } else {
+    return Console.WriteLine("Please enter a numerical amount.");
   }
